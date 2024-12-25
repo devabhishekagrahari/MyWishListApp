@@ -59,7 +59,7 @@ fun HomeView(
     contentColor = Color.White,
     backgroundColor = Color.Black,
     onClick = {
-              Toast.makeText(context , "Floating Action Button CLicked" , Toast.LENGTH_LONG).show()
+              Toast.makeText(context , "Floating Action Button CLicked .ThankYou!" , Toast.LENGTH_LONG).show()
               navController.navigate(Screen.AddScreen.route + "/0L")
     },
     ){
